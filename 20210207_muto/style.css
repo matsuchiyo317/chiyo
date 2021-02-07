@@ -124,7 +124,7 @@ input, select {
 
 #eyecatch {
   height: 800px;
-  background: url(/Users/masatomuto/Desktop/coachtech/20210207_muto/img/eyecatch.jpg);
+  background: url(img/eyecatch.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -290,7 +290,7 @@ input, select {
   justify-content: space-between;
 }
 .company {
-  background: url(/Users/masatomuto/Desktop/coachtech/20210207_muto/img/company.jpeg);
+  background: url(img/company.jpeg);
   background-size: cover;
   background-position: center;
   width: 45%;
@@ -311,7 +311,7 @@ input, select {
   text-align: center;
 }
 .recruit {
-  background: url(/Users/masatomuto/Desktop/coachtech/20210207_muto/img/recruit.jpg);
+  background: url(img/recruit.jpg);
   background-size: cover;
   background-position: center;
   width: 45%;
@@ -351,7 +351,7 @@ input, select {
 }
 
 #contact {
-  background: url(/Users/masatomuto/Desktop/coachtech/20210207_muto/img/contact-bg.jpg);
+  background: url(img/contact-bg.jpg);
   background-size: cover;
   background-position: center;
   color: white;
