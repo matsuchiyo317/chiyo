@@ -120,6 +120,7 @@ input, select {
 }
 .header-right a {
   color: #f2f2f2;
+  text-decoration: none;
 }
 
 #eyecatch {
@@ -414,6 +415,7 @@ input, select {
 }
 .footer-right a {
   color: #f2f2f2;
+  text-decoration: none;
 }
 .footer p {
   text-align: center;
