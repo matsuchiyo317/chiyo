@@ -380,6 +380,8 @@ input, select {
 }
 #contact .text p {
   font-weight: normal;
+  width: 80%;
+  margin: 0 10%;
 }
 #contact a {
   display: block;
