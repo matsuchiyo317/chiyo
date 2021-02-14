@@ -553,11 +553,18 @@ body {
     position: static;
     width: 90%;
   }
-
+  
+  .faq {
+    width: 85%;
+    padding: 50px 5%;
+  }
   .recruit-company_size {
     width: 100%;
   }
   .footer-bar .header-logo {
     margin: 0 auto;
+  }
+  .top-footer {
+    padding-bottom: 5%;
   }
 }
