@@ -19,6 +19,7 @@ body {
   position: fixed;
   z-index: 1;
   background-color: white;
+  padding: 5px 5px 5px 10px;
 }
 .header-logo {
   display: block;
@@ -32,6 +33,7 @@ body {
 }
 .header-nav {
   height: 60px;
+  padding-right: 30px;
 }
 .header-nav li {
   height: 60px;
@@ -359,13 +361,13 @@ footer {
     background-color: #000;
   }
   .line-top {
-    top: 0;
+    top: 5px;
   }
   .line-middle {
-    top: 10px;
+    top: 15px;
   }
   .line-bottom {
-    top: 20px;
+    top: 25px;
   }
   .header-nav {
     display: none;
