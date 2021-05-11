@@ -17,12 +17,12 @@ export default {
   methods: {
     async created() {
       const item = await axios.get(
-        `https://apis.postcode-jp.com/api/v4/postcodes`
+        `https://apis.postcode-jp.com/api/v4/postcodes/${this.parentNum}`
       );
       console.log(item);
-      const postData = item.Data;
-      this.show = postData.show;
+      const postData = item.data;
+      this.show = postData.data[0].allAddress;
     }
   }
-}
+};
 </script>
