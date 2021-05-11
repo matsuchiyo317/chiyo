@@ -20,8 +20,7 @@ export default {
         `https://apis.postcode-jp.com/api/v4/postcodes/${this.parentNum}`
       );
       console.log(item);
-      const postData = item.data;
-      this.show = postData.data[0].allAddress;
+      this.show = item.data[0].allAddress;
     }
   }
 };
