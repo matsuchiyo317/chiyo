@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <button @click="showPost">住所自動入力</button>
+    <button @click="created">住所自動入力</button>
     <p>Address:{{show}}</p>
   </div>
 </template>
@@ -17,9 +17,10 @@ export default {
   methods: {
     async created() {
       const item = await axios.get(
-        `https://apis.postcode-jp.com/api/v4/postcodes/test?key=Jlq3zfGkIh85BGtU9BGFNJOJzYmnehJQNDG4GOG`
+        `https://apis.postcode-jp.com/api/v4/postcodes`
       );
-      const postData = item.data;
+      console.log(item);
+      const postData = item.Data;
       this.show = postData.show;
     }
   }
